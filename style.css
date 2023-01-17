@@ -4,7 +4,8 @@
     --primary-color: #6d28d9;
     --dark-gray: #475569;
     --off-white: #e2e8f0;
-    --green-color: #a3e635;
+    --green-color: #ccf381;
+    --blue-color: #4831d4;
 }
 
 body {
@@ -42,10 +43,22 @@ hr {
     border-radius: 0.5rem;
 }
 
+.link-primary:hover{
+    color: var(--green-color);
+    background-color: var(--blue-color);
+    
+}
+
 .link-secondary {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
+}
+
+.link-secondary:hover{
+    color: var(--green-color);
+    background-color: var(--blue-color);
+    border: 1px solid var(--blue-color);
 }
 
 /** have to look into BEM naming convention for CSS **/
@@ -72,6 +85,10 @@ hr {
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+}
+
+.navigation .link:hover {
+    color: var(--green-color);
 }
 
 .navigation .nav-brand {
@@ -121,7 +138,7 @@ hr {
 
 .section {
     padding: 2rem;
-    margin: 2rem 0;
+    margin: 2rem;
     border-radius: 1rem;
     text-align: center;
 }
@@ -153,6 +170,10 @@ hr {
 
 .footer .link {
     color: white;
+}
+
+.footer .link:hover{
+    color: var(--green-color);
 }
 
 .footer ul {
