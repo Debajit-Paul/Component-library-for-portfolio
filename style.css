@@ -4,6 +4,7 @@
     --primary-color: #6d28d9;
     --dark-gray: #475569;
     --off-white: #e2e8f0;
+    --green-color: #a3e635;
 }
 
 body {
@@ -75,7 +76,8 @@ hr {
 
 .navigation .nav-brand {
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
+    padding: 1rem;
 }
 
 .navigation .nav-pills {
@@ -119,6 +121,9 @@ hr {
 
 .section {
     padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    text-align: center;
 }
 
 .section h1 {
@@ -139,6 +144,11 @@ hr {
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
 }
 
 .footer .link {
